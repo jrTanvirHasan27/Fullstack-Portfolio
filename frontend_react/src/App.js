@@ -1,9 +1,15 @@
 import React from 'react';
 
-export const App = () => {
+//import {About, Footer, Header, Skills, Testimonial} from './container';
+//import { Navbar } from './components';
+
+
+const App = () => {
   return (
-    <h1>App</h1>
-  )
+      <div className="app">
+        Hello World!
+      </div>
+  );
 }
 
 export default App;
